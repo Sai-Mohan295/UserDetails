@@ -20,6 +20,7 @@ nav a {
   cursor: pointer;
   letter-spacing: 1px;
   color: white;
+  padding-left: 5rem;
 }
 
 .nav-menu {
