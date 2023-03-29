@@ -9,8 +9,7 @@ nav {
 }
 nav li{
   list-style-type: none;
-  padding-right: 1rem;
-  
+  padding-right: 1rem; 
 }
 
 nav a {
@@ -25,5 +24,4 @@ nav a {
 
 .nav-menu {
   display: flex;
-  
 }

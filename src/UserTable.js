@@ -27,13 +27,13 @@ const UserTable = () => {
             <th>Image</th>
             <th>First Name</th>
             <th>Email</th>
-            <th>Gender</th>
-            <th>Department</th>
+            <th>Address</th>
+            <th>Phone Number</th>
           </tr>
         </thead>
         <tbody>
           {users.map((eachUser) => {
-            const { id, firstName, image, email, gender, company } = eachUser;
+            const { id, firstName, image, email, address, phone } = eachUser;
             return (
               <tr key={id}>
                 <td>{id}</td>
@@ -42,8 +42,8 @@ const UserTable = () => {
                 </td>
                 <td>{firstName}</td>
                 <td>{email}</td>
-                <td>{gender}</td>
-                <td>{company.department}</td>
+                <td>{address.city}</td>
+                <td>{phone}</td>
               </tr>
             );
           })}
